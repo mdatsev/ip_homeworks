@@ -19,7 +19,7 @@ public class IntegrationTest {
 	
 	@Test
 	public void playGame() {
-		RestAssured.port = 8080;
+		RestAssured.port = 8081;
 		RestAssured.enableLoggingOfRequestAndResponseIfValidationFails();
 		RestAssured.defaultParser = Parser.JSON;
 		RestAssured.baseURI = "http://localhost";
@@ -63,7 +63,7 @@ public class IntegrationTest {
 
 	@Test
 	public void testWrongInput() {
-		RestAssured.port = 8080;
+		RestAssured.port = 8081;
 		RestAssured.enableLoggingOfRequestAndResponseIfValidationFails();
 		RestAssured.defaultParser = Parser.JSON;
 		RestAssured.baseURI = "http://localhost";
@@ -86,7 +86,7 @@ public class IntegrationTest {
 	
 	@Test
 	public void playTwoGames() {
-		RestAssured.port = 8080;
+		RestAssured.port = 8081;
 		RestAssured.enableLoggingOfRequestAndResponseIfValidationFails();
 		RestAssured.defaultParser = Parser.JSON;
 		RestAssured.baseURI = "http://localhost";
