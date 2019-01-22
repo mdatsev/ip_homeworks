@@ -1,0 +1,13 @@
+average time to guess:
+
+length: 1 time: 0.00009479s
+length: 2 time: 0.00623259s
+length: 3 time: 0.92521551s
+length: 4 time: 5.85488046s
+
+average hashes per second:
+length: 1     hashes/second: 12111353
+length: 10    hashes/second: 15323594
+length: 100   hashes/second: 7419171
+length: 1000  hashes/second: 989241
+length: 10000 hashes/second: 106522
